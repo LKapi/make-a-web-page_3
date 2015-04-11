@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Class Notes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <h1>Introduction to Programming Notes</h1>
+  <div class="lesson">
+      <h2>
+        Lesson 0 - The Basics of Web and HTML</h2>  
+
+    <div class="lesson-description">
+       <p>
+         Includes an overview of the internet - servers, browswers, internet, and HTTP - and an introduction to HTML.</p>
+    </div>
+    <div class="concepts">
+      <div class="concept-title">
+        1. Web Pages
+      </div>
+
+        <div class="concept-description">
+        <p>
+          -are text pages writting in HTML<br>
+          - browsers read, then interpret them</p>
+         </div>
+    <hr />
+      <div class="concept-title">
+        2. How Coding Works
+      </div>
+
+        <div class="concept-description">
+              <p>
+              - programmers write text in languages a computer can understand</p>
+        </div>
+    <hr />
+
+      <div class="concept-title">
+        3. Computers are Stupid
+      </div>
+        <div class="concept-description">
+          <p>- you have to use the correct syntax</p></div>
+    <hr/>
+
+      <div class="concept-title">
+        4. Programmers Can't Remember Everything
+      </div>
+        <div class="concept-description">
+          <p>- you can easily look up things you can't remember</p>
+        </div>
+      <hr/>
+
+      <div class="concept-title">
+        5. Basic HTML Vocabulary
+      </div>
+        <div class="concept-description">
+        <p>Tag - Always have angled brackets, some have opening and closing tags. Void tags don't require closing tags.<br><br>
+          Element - Everything within a set of opening and closing tags.<br><br>
+
+          Attribute -Properties of an HTML element.<br>
+              b - <b>bold</b><br>
+              em - <em>italics</em><br>
+              p - paragraph<br>
+              br - page break<br>
+              img - image <br>
+              span - inline - can attach styles to them<br>
+              div - creates a block<br><br>
+           The following are inline: a, span, br, img, and strong.<br>
+            The following are block: div, p and form.</p>
+      </div>
+  </div></div>
+
+  <div class="lesson">
+    <h2> Lesson 1: Webpages, Documents and Structure</h2>
+     <div class="concepts">
+      <div class="concept-title">
+        1. HTML and CSS are both languages
+       </div>
+      <div class="concept-description">
+        <p>HTML - basic tool is a tag - turns into elements on a tree<br>
+          CSS - changes how elements look on a page</p></div>
+   <hr />
+
+      <div class="concept-title">
+        2. HTML Controls the structure of the page
+       </div>
+        <div class="concept-description"> 
+          <p>It has a tree-like structure. The basic part is the "tag" which creates an element. A tag can have attributes with values.</p>
+          <p>It is a good practice to use div tags to organize similar sections within a document. This will allow you to set up style rules that cn be applied universally and reduce repetition of the same code.</p>
+       </div>
+       <hr />
+
+      <div class="concept-title">
+        3. CSS Controls the "Style" of the page.
+       </div>
+        <div class="concept-description">
+        <p> Stands for Cascading Style Sheets. It is done by giving similar HTML elements the same class name and then specifiing the style that should apply. It saves you from having to repeat the same code for similar elements on the page. Avoiding repetition is simpler and makes it easier to make changes universally to similar elements.</p>
+        </div>
+       <hr />
+
+      <div class="concept-title">
+        4. When Programmers talk about the DOM - Document Object Model - they are talking about the structure of a page.
+       </div>
+        <div class="concept-description">
+          <p>It shows elements on the page and how they relate to each other.</p>
+         </div>
+  </div></div>
+
+  <div class="lesson">
+    <h2>Lesson 2: Telling Computers What to Do - Section 1: Introduction to "Serious" Programming</h2>
+
+    <div class="concepts">
+
+      <div class="concept-title">
+        Computer
+        </div>
+        <div class="concept-description">
+          <p> Can only do what you program it to do.</p>
+        </div>
+        <hr />
+
+      <div class="concept-title">
+        Computer Program
+          </div>
+        <div class="concept-description">
+          <p>A precise sequence of steps that can allow a computer to be useful.</p>
+          </div>
+          <hr />
+
+      <div class="concept-title">
+        Programming Language
+       </div>
+        <div class="concept-description">
+          <p>It is used to tell a computer what to do. Python is an example.</p>
+          </div>
+          <hr />
+
+      <div class="concept-title">
+        Python
+      </div>
+        <div class="concept-description">
+          <p>It is a programming langugage. "Run" tell a "python interpreter" to turn the code you wrote into something the computer understands.</p> 
+          </div>
+          <hr />
+
+      <div class="concept-title">
+        Grammar
+      </div>
+      <div class="concept-description">
+        <p>Computers can only understand code with correct grammar. Computers are stupid.</p></div>
+        <hr />
+
+      <div class="concept-title">
+        Python Expressions
+      </div>
+      <div class="concept-description">
+          <p>It is a valid python statement. It follows Python grammar and is understandable to the computer.<br>
+            A link to grammar expressions will be added here.</p>
+       </div>
+  </div></div>
+
+    <div class="lesson">
+      <h2>Lesson 2: Telling Computers What to Do - Section 2: Variables and Strings</h2>
+
+    <div class="concepts">
+
+      <div class="concept-title">
+        Python Variables
+        </div>
+        <div class="concept-description">
+          <p> Variables give programmers a way to give names to their variables. <br><br>
+            For example:<br>
+          <code>s[s] equals s[1+1+1]<br>
+          s[0] equals (s+s)[0]<br>
+            s[-1] equals (s+s)[-1] </code>
+          </p>
+        </div> 
+        <hr />
+
+      <div class="concept-title">
+        Assigning Value to a Variable
+      </div>
+        <div class="concept-description">
+          <p>You can change the value of a variable by reassigning it to different values later.<br>
+          For example: if you have the string be named 'word' which is assigned to be <em>assume</em>:<br><br>
+          <code>print word[3] equals u<br>
+          print word[3:4] equals u<br>
+          print word[3:3] equals blank - nothing is inbetween location 3 and itself<br>
+          print word[4:] equals me<br>
+          print word[4:6] equals me<br>
+          print word[:2] equals as<br>
+            print word[:] equals assume<br></code></p>
+      </div>
+      <hr />
+
+      <div class="concept-title">
+        Understanding equals signs
+      </div>
+        <div class="concept-description">
+          <p>In the example of 2+3=5, the = is "same as".<br>
+            In the example of "my_variable=5", the = means "takes the value of"</p>
+      </div>
+      <hr />
+
+     <div class="concept-title">
+       Ways variable are useful</div>
+        <div class="concept-description">
+         <p> Variables improve readability by using names that make sense to people. It gives us a way to store the value of important data. It gives us a way to change the value of something.</p>
+        </div>
+        <hr />
+
+      <div class="concept-title">
+        More Variable Distinctions</div>
+        <div class="concept-description">
+         <p> - 2+2 is a number<br>
+           - "2" + "2" is a string</p>
+      </div>
+
+      </div></div>
+
+  <div class="lesson">
+   <h2> Lesson 2: Telling Computers What to Do - Section 3: Input => Function => Output
+    </h2>
+    <div class="concepts">
+
+    </div></div>
+
+
+</body>
+
+</html>
