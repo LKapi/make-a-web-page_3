@@ -1,0 +1,37 @@
+/*this code make th H1 white text*/
+
+h1 {
+  color:white;
+ 
+}
+
+/* This code makes the <body> have a blue background*/
+body {
+  background-color: blue;
+  font-family: "Helvetica", Times, serif;
+}
+
+/*this code gives everything inside of the elements with class "lesson" a green background color. It also makes the rounded border*/
+.lesson {
+    background-color: beige;
+    border-radius: 20px;
+    color: black;  
+    padding: 20px;
+    margin: 10px;
+}
+
+/* an element inside has a class="concept"*/
+.concepts {
+  background-color: grey;
+  border-radius:20px;
+  padding: 20px;
+  
+}
+
+/*this code sets the font size to 24 pixels, makes it bold and centers it.*/
+.concept-title {
+  font-size: 24px;
+  font-weight:bold;
+  text-align: center;
+}
+
